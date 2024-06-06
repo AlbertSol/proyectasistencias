@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de asistencia</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="body">
+  <div class="container">
+    <aside class="sidebar">
+      <h1 class="sidebar-title">Gestión de asistencia</h1>
+      <p class="sidebar-description">Administra las asistencias de tus materias</p>
+      <nav class="nav">
+        <a href="index.html" class="nav-link active">Asistencias</a>
+        <a href="docentes.html" class="nav-link active">Docentes</a>
+        <a href="estudiantes.html" class="nav-link active">Estudiantes</a>
+        <a href="materias.html" class="nav-link active">Materias</a>
+      </nav>
+    </aside>
+    <main class="main">
+      <h2 class="main-title">Materias</h2>
+
+      <table class="table">
+        <thead class="table-head">
+          <tr>
+            <th class="table-header">Número</th>
+            <th class="table-header">Nombre</th>
+          </tr>
+        </thead>
+        <tbody id="listado-materias" class="table-body"></tbody>
+      </table>
+    </main>
+  </div>
+  <script src="script.js" type="module"></script>
+</body>
+
+</html>
