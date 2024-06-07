@@ -1,7 +1,7 @@
 ### SISTEMA DE GESTIÓN DE ASISTENCIAS PARA ESTUDIANTES.
-En este repositorio fue creada como proyecto final de la Clase de Programación Web. El repositorio contiene para lado de la Web y del Lado Movil. En este proyecto implementamos tecnologias que se usan en la actualidad así como librerias para la conexión a la base de datos. 
+Este repositorio fue creado como proyecto final de la Clase de Programación Web. Contiene tanto el lado web como el lado móvil. En este proyecto, implementamos tecnologías y librerías actuales para la conexión a la base de datos.
 
-Estas son las tecnologicas que se utilizo:
+Estas son las tecnologías que se utilizaron:
 - Node.js
 - HTML
 - CSS
@@ -10,19 +10,21 @@ Estas son las tecnologicas que se utilizo:
 - Dart
 - MySQL
 
-En este repositorio podras encontrar:
-- Un servidor que ayudara a la App Movil en la conexion de la base de datos.
-- Un servdor que ayudara a la pagina web en la conexion de la base de  datos.
-- La Estructura para la App Movil.
-- La Estructura para la Pagina Web.
+En este repositorio podrás encontrar:
+- Un servidor que ayudará a la app móvil en la conexión con la base de datos.
+- Un servdor que ayudara a la página web en la conexión de la base de  datos.
+- La Estructura para la app móvil.
+- La Estructura para la página web.
 
-librerias que se utilizaron dentro de la carpeta backend:
+librerías que se utilizaron dentro de la carpeta backend:
+
 `npm init -y`
 `npm install express`
 `npm install mysql`
 `npm install cors`
 
 librerias que se utilizaron en Flutter:
+
 `flutter pub add http`
 `flutter pub add mysql1`
 
